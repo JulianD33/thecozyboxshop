@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Local tooling
+.claude/
+.netlify/
+node_modules/
+
+# Original source photos (kept locally, not needed on the site)
+1.jpeg
+WhatsApp Image*.jpeg

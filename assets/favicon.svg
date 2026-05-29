@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="15" fill="#BE7150"/>
+  <!-- bow -->
+  <path d="M32 23 L21 15 Q19 20 24 24 Z" fill="#C9A36A"/>
+  <path d="M32 23 L43 15 Q45 20 40 24 Z" fill="#C9A36A"/>
+  <!-- box base -->
+  <rect x="14" y="30" width="36" height="22" rx="3" fill="#FBF7F1"/>
+  <!-- lid -->
+  <rect x="11" y="23" width="42" height="9" rx="3" fill="#F4EBE0"/>
+  <!-- ribbon -->
+  <rect x="28" y="23" width="8" height="29" fill="#C9A36A"/>
+  <!-- knot -->
+  <circle cx="32" cy="23" r="3.4" fill="#A1573A"/>
+</svg>

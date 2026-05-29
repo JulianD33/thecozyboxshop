@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Order, The Cozy Box Shop</title>
+<meta name="description" content="Order a Cozy Box or start a custom gift. Reach The Cozy Box Shop by form, WhatsApp, email or Instagram, and see our frequently asked questions.">
+<link rel="canonical" href="https://thecozyboxshop.com/contact">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Dancing+Script:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-name">The Cozy Box</span>
+      <span class="brand-sub">Handmade · Artesanal</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><button class="lang-toggle" id="langToggle" aria-label="Switch to English"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.7 2.6 15.3 0 18M12 3c-2.6 2.7-2.6 15.3 0 18" stroke-linecap="round"/></svg><span id="langLabel">EN</span></button></li>
+      <li><a href="contact.html" class="btn btn-primary nav-cta">Order a Box</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="crumbs"><a href="index.html">Home</a> · Contact</div>
+    <span class="eyebrow center">Let's talk</span>
+    <h1>Order a box, or <em>just say hi</em></h1>
+    <p>Tell us what you're dreaming up and we'll make it cozy. We usually reply within one business day.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" style="padding-top:56px;">
+  <div class="container contact-grid">
+    <div class="contact-info reveal">
+      <h2 style="font-size:2rem;margin-bottom:28px;">Get in touch</h2>
+      <div class="info-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.3 14.2c-.2.6-1.2 1.2-1.7 1.2-.4 0-1 .2-3.2-.8s-3.5-3.2-3.6-3.3c-.1-.2-.9-1.2-.9-2.3s.6-1.6.8-1.8c.2-.2.4-.3.6-.3h.4c.2 0 .4 0 .6.5l.7 1.7c.1.2.1.4 0 .5l-.3.5-.3.3c-.1.1-.3.3-.1.5s.6 1 1.3 1.6c.9.8 1.6 1 1.8 1.1.2.1.4.1.5-.1l.6-.7c.2-.2.3-.2.5-.1l1.6.8c.2.1.4.2.4.3.1.1.1.5-.1 1z"/></svg></span>
+        <div><h4>WhatsApp</h4><a href="https://wa.me/18298127667" target="_blank" rel="noopener">+1 (829) 812-7667</a><div style="margin-top:2px;font-size:.92rem;color:var(--brown-soft);">Message us to order fast</div></div>
+      </div>
+      <div class="info-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+        <div><h4>Email</h4><a href="mailto:hello@thecozyboxshop.com">hello@thecozyboxshop.com</a></div>
+      </div>
+      <div class="info-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></span>
+        <div><h4>Instagram</h4><a href="https://instagram.com" target="_blank" rel="noopener">@thecozyboxshop</a></div>
+      </div>
+      <div class="info-item">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg></span>
+        <div><h4>Made &amp; shipped</h4><p>Handmade to order · ships in 3–5 business days</p></div>
+      </div>
+    </div>
+
+    <div class="form-card reveal d1">
+      <div class="form-success" id="formSuccess">Thank you! We'll continue your order on WhatsApp, opening it now. 🤍</div>
+      <form id="orderForm">
+        <div class="field-row">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Doe" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@email.com" required></div>
+        </div>
+        <div class="field">
+          <label for="box">Which box or item?</label>
+          <select id="box" name="box">
+            <option>The Deluxe Cozy Box</option>
+            <option>The Warm Welcome Box</option>
+            <option>Build-Your-Own Box (custom)</option>
+            <option>Candles</option>
+            <option>Soap &amp; Skincare</option>
+            <option>Wax Melts &amp; Burners</option>
+            <option>Not sure yet, help me choose</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Tell us the details</label>
+          <textarea id="message" name="message" placeholder="Who's it for, favorite scents/colors, the occasion, budget, delivery date..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send &amp; continue on WhatsApp
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="form-note">No payment now, we'll confirm everything with you first.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" style="background:var(--cream-2);" id="faq">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <span class="eyebrow center">Good to know</span>
+      <h2>Frequently asked</h2>
+    </div>
+    <div class="faq reveal d1">
+      <div class="faq-item">
+        <button class="faq-q">Are the products really handmade? <span class="pm">+</span></button>
+        <div class="faq-a"><p>Yes, every candle, soap, scrub and wax melt is made by hand in small batches. Slight variations in color and shape are part of what makes each piece one of a kind.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can I customize what goes in my box? <span class="pm">+</span></button>
+        <div class="faq-a"><p>Absolutely. Choose our Build-Your-Own Box and tell us the scents, colors, occasion and budget. We'll curate it, wrap it, and add a handwritten note before it ships.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How long does it take to receive my order? <span class="pm">+</span></button>
+        <div class="faq-a"><p>Because everything is made to order, please allow 3–5 business days for crafting and wrapping, plus shipping time. Need it sooner for a special date? Just ask and we'll do our best.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Are the ingredients safe for sensitive skin? <span class="pm">+</span></button>
+        <div class="faq-a"><p>We use gentle, natural ingredients like oatmeal, cinnamon and botanical oils. If you have allergies, message us before ordering and we'll share a full ingredient list.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you offer gift wrapping &amp; notes? <span class="pm">+</span></button>
+        <div class="faq-a"><p>Always, and at no extra cost. Every box arrives wrapped in tissue, tied with ribbon, and ready to gift. Add a personal message at checkout and we'll handwrite it.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How do I pay? <span class="pm">+</span></button>
+        <div class="faq-a"><p>Send your details through the form or WhatsApp and we'll confirm the order and share secure payment options. Nothing is charged until everything is just right.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand-name">The Cozy Box Shop</div>
+        <div class="brand-sub">Handmade · Artesanal</div>
+        <p>Small-batch gift boxes of handmade soap, candles, wax melts &amp; natural skincare. Wellness you can feel, scents that stay with you.</p>
+        <div class="socials">
+          <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://wa.me/18298127667" aria-label="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.3 14.2c-.2.6-1.2 1.2-1.7 1.2-.4 0-1 .2-3.2-.8s-3.5-3.2-3.6-3.3c-.1-.2-.9-1.2-.9-2.3s.6-1.6.8-1.8c.2-.2.4-.3.6-.3h.4c.2 0 .4 0 .6.5l.7 1.7c.1.2.1.4 0 .5l-.3.5-.3.3c-.1.1-.3.3-.1.5s.6 1 1.3 1.6c.9.8 1.6 1 1.8 1.1.2.1.4.1.5-.1l.6-.7c.2-.2.3-.2.5-.1l1.6.8c.2.1.4.2.4.3.1.1.1.5-.1 1z"/></svg></a>
+          <a href="mailto:hello@thecozyboxshop.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html">Gift Boxes</a></li>
+          <li><a href="shop.html#candles">Candles</a></li>
+          <li><a href="shop.html#soap">Soap &amp; Skincare</a></li>
+          <li><a href="shop.html#melts">Wax Melts</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+          <li><a href="shop.html">Custom Orders</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay cozy</h4>
+        <p style="margin-bottom:4px;">Join for new scents, seasonal boxes &amp; little treats.</p>
+        <form class="nl-form">
+          <input type="email" placeholder="Your email" required aria-label="Email">
+          <button type="submit" aria-label="Subscribe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </form>
+      </div>
+    </div>
+    <div class="foot-note">
+      <span>© <span id="year">2026</span> The Cozy Box Shop · thecozyboxshop.com</span>
+      <span>Handmade with love · Wrapped with care</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>

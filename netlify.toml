@@ -1,0 +1,12 @@
+# The Cozy Box Shop — static site (no build step)
+[build]
+  publish = "."
+
+[build.processing]
+  skip_processing = false
+
+# Pretty URLs: serve /shop for /shop.html, etc.
+[[redirects]]
+  from = "/home"
+  to = "/index.html"
+  status = 301

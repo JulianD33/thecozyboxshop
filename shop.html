@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop, The Cozy Box Shop | Handmade Gift Boxes, Candles & Soap</title>
+<meta name="description" content="Browse handcrafted gift boxes, hand-poured candles, artisan soap, natural skincare and decorative wax melts from The Cozy Box Shop.">
+<link rel="canonical" href="https://thecozyboxshop.com/shop">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Dancing+Script:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-name">The Cozy Box</span>
+      <span class="brand-sub">Handmade · Artesanal</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html" class="active">Shop</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><button class="lang-toggle" id="langToggle" aria-label="Switch to English"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.7 2.6 15.3 0 18M12 3c-2.6 2.7-2.6 15.3 0 18" stroke-linecap="round"/></svg><span id="langLabel">EN</span></button></li>
+      <li><a href="contact.html" class="btn btn-primary nav-cta">Order a Box</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="crumbs"><a href="index.html">Home</a> · Shop</div>
+    <span class="eyebrow center">The collection</span>
+    <h1>Handmade, <em>head to toe cozy</em></h1>
+    <p>Curated gift boxes and the little handmade pieces inside them. Filter by what you're in the mood for.</p>
+  </div>
+</section>
+
+<!-- FILTER + GRID -->
+<section class="section" style="padding-top:56px;">
+  <div class="container">
+    <div class="chips">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="boxes">Gift Boxes</button>
+      <button class="chip" data-filter="candles">Candles</button>
+      <button class="chip" data-filter="soap">Soap &amp; Skincare</button>
+      <button class="chip" data-filter="melts">Wax Melts &amp; Burners</button>
+    </div>
+
+    <div class="prod-grid" id="grid">
+
+      <!-- GIFT BOXES -->
+      <article class="prod reveal" data-cat="boxes" id="boxes">
+        <div class="prod-img"><span class="prod-pill">Signature</span><img src="assets/images/box-curated.jpeg" alt="Deluxe Cozy Box with burner, scrub, soaps and wax melts arranged on tissue"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Gift box</span>
+          <h3>The Deluxe Cozy Box</h3>
+          <p>Our fullest ritual: ceramic wax burner, bath scrub, oatmeal soap, wax melts &amp; a mini candle, all hand-wrapped.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal d1" data-cat="boxes">
+        <div class="prod-img"><span class="prod-pill sage">Bestseller</span><img src="assets/images/giftbox-koala.jpeg" alt="Cozy Box with terracotta burner, soaps and embroidered towel"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Gift box</span>
+          <h3>The Warm Welcome Box</h3>
+          <p>A terracotta burner, citrus &amp; oatmeal soaps, a mini candle and a hand-embroidered dragonfly towel.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal d2" data-cat="boxes">
+        <div class="prod-img"><img src="assets/images/box-open-handmade.jpeg" alt="An open gift box lined with tissue and a Handmade seal, ready to be filled"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Gift box · Custom</span>
+          <h3>Build-Your-Own Box</h3>
+          <p>Choose your scents and pieces, we curate, wrap and finish it with a handwritten note. Tell us the vibe.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Customize <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <!-- CANDLES -->
+      <article class="prod reveal" data-cat="candles" id="candles">
+        <div class="prod-img"><span class="prod-pill">Bestseller</span><img src="assets/images/candle-stars.jpeg" alt="Layered candle with red star embeds in clear gel"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Hand-poured candle</span>
+          <h3>Starlight Gel Candle</h3>
+          <p>A creamy base topped with shimmering red stars in crystal gel. Vanilla &amp; wild berry.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal d1" data-cat="candles">
+        <div class="prod-img"><img src="assets/images/candle-coral.jpeg" alt="Coral gel candle glowing warmly"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Hand-poured candle</span>
+          <h3>Sunset Coral Candle</h3>
+          <p>Warm coral gel with a soft glow and a clean cotton wick. Notes of peach blossom &amp; amber.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal d2" data-cat="candles">
+        <div class="prod-img"><span class="prod-pill sage">New</span><img src="assets/images/candle-green.jpeg" alt="Green gel candle on a wooden shelf"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Hand-poured candle</span>
+          <h3>Eucalyptus Mint Candle</h3>
+          <p>A cool, spa-green gel candle that smells like a deep breath. Eucalyptus, mint &amp; fresh sage.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal" data-cat="candles">
+        <div class="prod-img"><img src="assets/images/mini-candle-red.jpeg" alt="Tiny red mini candle tied with twine"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Mini candle</span>
+          <h3>Little Ruby Mini Candle</h3>
+          <p>A pocket-sized candle in glossy red glass, tied with twine. The perfect add-on or stocking filler.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <!-- SOAP & SKINCARE -->
+      <article class="prod reveal d1" data-cat="soap" id="soap">
+        <div class="prod-img"><span class="prod-pill">Bestseller</span><img src="assets/images/giftbox-koala.jpeg" alt="Oatmeal soap with cinnamon in a gift box"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Artisan soap</span>
+          <h3>Oatmeal &amp; Cinnamon Soap</h3>
+          <p>A gently exfoliating bar with real oats &amp; warm cinnamon. Soothing for sensitive, dry skin.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal d2" data-cat="soap">
+        <div class="prod-img"><img src="assets/images/sugar-scrub-jar.jpeg" alt="Natural exfoliating sugar scrub in a glass jar, held in hand"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Body scrub</span>
+          <h3>Organic Sugar Scrub</h3>
+          <p>A natural exfoliating scrub that buffs skin soft and leaves it lightly scented and glowing.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal" data-cat="soap">
+        <div class="prod-img"><img src="assets/images/product-collage.jpeg" alt="Natural tinted lip balm in a small jar"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Lip care</span>
+          <h3>Natural Lip Balm</h3>
+          <p>A nourishing, lightly tinted balm that melts into lips. Made with botanical butters &amp; oils.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <!-- WAX MELTS & BURNERS -->
+      <article class="prod reveal d1" data-cat="melts" id="melts">
+        <div class="prod-img"><span class="prod-pill sage">New</span><img src="assets/images/waxmelts-sunflower.jpeg" alt="Hand-molded sunflower wax melts"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Wax melts</span>
+          <h3>Sunflower Melt Set</h3>
+          <p>Six hand-molded sunflowers in honey &amp; terracotta tones. Warm them to fill a room with comfort.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal d2" data-cat="melts">
+        <div class="prod-img"><span class="prod-pill">Bestseller</span><img src="assets/images/waxmelt-cupcake.jpeg" alt="Cupcake wax melt with whipped swirl"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Wax melt</span>
+          <h3>Cupcake Dream Melt</h3>
+          <p>A whipped buttercream swirl with a candy star on top. Sweet vanilla frosting &amp; sugar.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal" data-cat="melts">
+        <div class="prod-img"><span class="prod-pill sage">New</span><img src="assets/images/waxmelts-strawberry.jpeg" alt="Strawberry-shaped wax melts in an organza gift bag"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Wax melts</span>
+          <h3>Strawberry Patch Melts</h3>
+          <p>Three hand-molded strawberries tucked in an organza pouch. Sweet, sun-ripened berry to fill any room.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal d1" data-cat="melts">
+        <div class="prod-img"><img src="assets/images/product-collage.jpeg" alt="Citrus-shaped wax melts on a wooden dish"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Wax melts</span>
+          <h3>Citrus Slice Melts</h3>
+          <p>Cheerful orange &amp; lime slices with a bright, zesty scent. A little burst of sunshine indoors.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+      <article class="prod reveal d1" data-cat="melts">
+        <div class="prod-img"><img src="assets/images/giftbox-koala.jpeg" alt="Terracotta ceramic wax burner"></div>
+        <div class="prod-body">
+          <span class="cat-tag">Burner</span>
+          <h3>Terracotta Wax Burner</h3>
+          <p>A handmade ceramic burner with a soft glow and cut-out detail. The cozy home for any melt.</p>
+          <div class="prod-foot"><a href="contact.html" class="add">Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></a></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="cta-band">
+  <div class="container">
+    <span class="eyebrow center" style="color:var(--blush);">Can't decide?</span>
+    <h2>Let us build it <em>just for them.</em></h2>
+    <p>Tell us who it's for, the colors and scents they love, and your budget, we'll handcraft a one-of-a-kind Cozy Box.</p>
+    <div class="hero-actions">
+      <a href="contact.html" class="btn btn-light">Start a custom box
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand-name">The Cozy Box Shop</div>
+        <div class="brand-sub">Handmade · Artesanal</div>
+        <p>Small-batch gift boxes of handmade soap, candles, wax melts &amp; natural skincare. Wellness you can feel, scents that stay with you.</p>
+        <div class="socials">
+          <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://wa.me/18298127667" aria-label="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.3 14.2c-.2.6-1.2 1.2-1.7 1.2-.4 0-1 .2-3.2-.8s-3.5-3.2-3.6-3.3c-.1-.2-.9-1.2-.9-2.3s.6-1.6.8-1.8c.2-.2.4-.3.6-.3h.4c.2 0 .4 0 .6.5l.7 1.7c.1.2.1.4 0 .5l-.3.5-.3.3c-.1.1-.3.3-.1.5s.6 1 1.3 1.6c.9.8 1.6 1 1.8 1.1.2.1.4.1.5-.1l.6-.7c.2-.2.3-.2.5-.1l1.6.8c.2.1.4.2.4.3.1.1.1.5-.1 1z"/></svg></a>
+          <a href="mailto:hello@thecozyboxshop.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html">Gift Boxes</a></li>
+          <li><a href="shop.html#candles">Candles</a></li>
+          <li><a href="shop.html#soap">Soap &amp; Skincare</a></li>
+          <li><a href="shop.html#melts">Wax Melts</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+          <li><a href="shop.html">Custom Orders</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay cozy</h4>
+        <p style="margin-bottom:4px;">Join for new scents, seasonal boxes &amp; little treats.</p>
+        <form class="nl-form">
+          <input type="email" placeholder="Your email" required aria-label="Email">
+          <button type="submit" aria-label="Subscribe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </form>
+      </div>
+    </div>
+    <div class="foot-note">
+      <span>© <span id="year">2026</span> The Cozy Box Shop · thecozyboxshop.com</span>
+      <span>Handmade with love · Wrapped with care</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>
