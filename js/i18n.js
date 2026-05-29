@@ -180,6 +180,20 @@
     "Tell us who it's for, the colors and scents they love, and your budget, we'll handcraft a one-of-a-kind Cozy Box.": "Cuéntanos para quién es, los colores y aromas que ama, y tu presupuesto: crearemos a mano una Cozy Box única.",
     "Start a custom box": "Comenzar una caja personalizada",
 
+    /* ---- customize page ---- */
+    "Build a Box": "Arma tu Caja",
+    "· Build a Box": "· Arma tu Caja",
+    "Make it yours": "Hazla tuya",
+    "Customize your": "Personaliza tu",
+    "Pick your box, fill it with the little handmade things you love, and we'll wrap it by hand with a note.": "Elige tu caja, llénala con las pequeñas cosas hechas a mano que amas, y la envolveremos a mano con una nota.",
+    "Every box is hand-wrapped in tissue and ribbon, finished with a handwritten note.": "Cada caja se envuelve a mano en papel y cinta, terminada con una nota escrita a mano.",
+    "Fill it with cozy": "Llénala de cozy",
+    "Make it personal": "Hazla personal",
+    "Who's it for / occasion": "¿Para quién es / ocasión?",
+    "Scents or colors you love": "Aromas o colores que amas",
+    "A note to add (optional)": "Una nota para agregar (opcional)",
+    "Your Cozy Box": "Tu Cozy Box",
+
     /* ---- about page ---- */
     "· Our Story": "· Nuestra Historia",
     "Our story": "Nuestra historia",
@@ -254,7 +268,10 @@
   var PH = {
     "Your email": "Tu correo",
     "Jane Doe": "Juana Pérez",
-    "Who's it for, favorite scents/colors, the occasion, budget, delivery date...": "¿Para quién es?, aromas/colores favoritos, la ocasión, presupuesto, fecha de entrega..."
+    "Who's it for, favorite scents/colors, the occasion, budget, delivery date...": "¿Para quién es?, aromas/colores favoritos, la ocasión, presupuesto, fecha de entrega...",
+    "Birthday, thank you, just because...": "Cumpleaños, agradecimiento, porque sí...",
+    "Warm vanilla, terracotta tones...": "Vainilla cálida, tonos terracota...",
+    "Add a little message for them...": "Agrega un pequeño mensaje para ellos..."
   };
 
   var nodes = [];
@@ -287,6 +304,7 @@
     var tg = document.getElementById('langToggle');
     if (tg) tg.setAttribute('aria-label', (lang === 'es') ? 'Switch to English' : 'Cambiar a Español');
     try { localStorage.setItem('cbs-lang', lang); } catch (e) {}
+    try { document.dispatchEvent(new CustomEvent('cbs:lang', { detail: lang })); } catch (e) {}
   }
 
   function init() {
