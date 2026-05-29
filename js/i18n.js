@@ -181,8 +181,8 @@
     "Start a custom box": "Comenzar una caja personalizada",
 
     /* ---- customize page ---- */
-    "Build a Box": "Arma tu Caja",
-    "· Build a Box": "· Arma tu Caja",
+    "Build Your Box": "Arma tu Caja",
+    "· Build Your Box": "· Arma tu Caja",
     "Make it yours": "Hazla tuya",
     "Customize your": "Personaliza tu",
     "Pick your box, fill it with the little handmade things you love, and we'll wrap it by hand with a note.": "Elige tu caja, llénala con las pequeñas cosas hechas a mano que amas, y la envolveremos a mano con una nota.",
