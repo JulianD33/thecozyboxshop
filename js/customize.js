@@ -26,6 +26,8 @@
     { id: 'c2', cat: 'candles', img: 'assets/images/candle-coral.jpeg', en: 'Sunset Coral Candle',    es: 'Vela Coral Atardecer', enCat: 'Candle', esCat: 'Vela' },
     { id: 'c3', cat: 'candles', img: 'assets/images/candle-green.jpeg', en: 'Eucalyptus Mint Candle', es: 'Vela Eucalipto y Menta', enCat: 'Candle', esCat: 'Vela' },
     { id: 'c4', cat: 'candles', img: 'assets/images/mini-candle-red.jpeg', en: 'Little Ruby Mini Candle', es: 'Mini Vela Rubí',    enCat: 'Mini candle', esCat: 'Mini vela' },
+    { id: 'c5', cat: 'candles', img: 'assets/images/candle-rose-garden.jpeg', en: 'Rose Garden Candle', es: 'Vela Jardín de Rosas', enCat: 'Candle', esCat: 'Vela' },
+    { id: 'c6', cat: 'candles', img: 'assets/images/candle-berry-tin.jpeg', en: 'Berry Medley Candle', es: 'Vela Frutos del Bosque', enCat: 'Candle', esCat: 'Vela' },
     // soap & skincare
     { id: 's1', cat: 'soap', img: 'assets/images/giftbox-koala.jpeg',   en: 'Oatmeal & Cinnamon Soap', es: 'Jabón de Avena y Canela', enCat: 'Soap', esCat: 'Jabón' },
     { id: 's2', cat: 'soap', img: 'assets/images/sugar-scrub-jar.jpeg', en: 'Organic Sugar Scrub',     es: 'Exfoliante de Azúcar Orgánico', enCat: 'Body scrub', esCat: 'Exfoliante' },
